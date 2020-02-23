@@ -18,6 +18,7 @@ steps:
   inputs:
     command: login
     containerRegistry: DockerHub
+
 - task: Docker@2
   displayName: Build and Push
   inputs:
